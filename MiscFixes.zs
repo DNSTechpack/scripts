@@ -14,6 +14,7 @@
 //#MARKER REMOVE
 recipes.remove(<malisisdoors:item.curtain>);
 recipes.remove(<Ztones:lampf>);
+recipes.remove(<Calculator:CalculatorAssembly>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -35,3 +36,4 @@ recipes.removeShaped(<malisisdoors:rustyLadder>, [[<minecraft:iron_ingot>, <mine
 recipes.addShaped(<Ztones:lampf>, [[<minecraft:iron_ingot>, <minecraft:glass_pane>, <minecraft:iron_ingot>], [<minecraft:glass_pane>, <minecraft:glowstone_dust>, <minecraft:glass_pane>], [<minecraft:iron_ingot>, <minecraft:glass_pane>, <minecraft:iron_ingot>]]);
 recipes.addShaped(<malisisdoors:item.curtain>, [[<ore:blockWool>, null, <ore:blockWool>], [<ore:blockWool>, null, <ore:blockWool>], [<ore:blockWool>, null, <ore:blockWool>]]);
 recipes.addShaped(<malisisdoors:rustyLadder>, [[<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>], [<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>], [<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>]]);
+recipes.addShaped(<Calculator:CalculatorAssembly>, [[<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>], [<minecraft:stone_button>, <minecraft:stone_pressure_plate>, <minecraft:stone_button>], [<minecraft:stone_button>, <minecraft:stone_button>, <minecraft:stone_button>]]);
