@@ -11,11 +11,11 @@
 //
 import mods.nei.NEI;
 
-NEI.addEntry(<MekanismTools:WoodPaxel>.withTag({display: {Lore: ["§4This tool cannot be crafted"]}}));
-NEI.addEntry(<MekanismTools:StonePaxel>.withTag({display: {Lore: ["§4This tool cannot be crafted"]}}));
-NEI.addEntry(<MekanismTools:IronPaxel>.withTag({display: {Lore: ["§4This tool cannot be crafted"]}}));
-NEI.addEntry(<MekanismTools:DiamondPaxel>.withTag({display: {Lore: ["§4This tool cannot be crafted"]}}));
-NEI.addEntry(<MekanismTools:GoldPaxel>.withTag({display: {Lore: ["§4This tool cannot be crafted"]}}));
+NEI.addEntry(<MekanismTools:WoodPaxel>.withTag({display: {Lore: ["This tool cannot be crafted"]}}));
+NEI.addEntry(<MekanismTools:StonePaxel>.withTag({display: {Lore: ["This tool cannot be crafted"]}}));
+NEI.addEntry(<MekanismTools:IronPaxel>.withTag({display: {Lore: ["This tool cannot be crafted"]}}));
+NEI.addEntry(<MekanismTools:DiamondPaxel>.withTag({display: {Lore: ["This tool cannot be crafted"]}}));
+NEI.addEntry(<MekanismTools:GoldPaxel>.withTag({display: {Lore: ["This tool cannot be crafted"]}}));
 
 // Loot = vanilla.loot.removeChestLoot("mineshaftCorridor", );
 vanilla.loot.removeChestLoot("dungeonChest", <minecraft:iron_ingot>);

@@ -48,6 +48,7 @@ recipes.addShapeless(<minecraft:iron_ingot> * 8, [PStone, <ore:ingotGold>]);
 recipes.addShapeless(<minecraft:obsidian>, [<minecraft:lava_bucket>, <minecraft:water_bucket>]);
 recipes.addShapeless(<minecraft:emerald>, [PStone, <minecraft:diamond>, <minecraft:diamond>]);
 recipes.addShapeless(<minecraft:diamond> * 2, [PStone, <ore:gemEmerald>]);
+recipes.addShapeless(<Enchiridion2:book>.withTag({identifier:"DNS_Techpack"}), [<usefulDNS:DecaNySodiumGem>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
